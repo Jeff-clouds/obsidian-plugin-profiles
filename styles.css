@@ -1,0 +1,195 @@
+/* 插件档案 Plugin Profiles —— 全部使用 Obsidian 主题变量，自动适配明暗主题 */
+
+.pp-modal {
+  min-width: min(560px, 86vw);
+}
+
+.pp-sub {
+  color: var(--text-muted);
+  font-size: var(--font-ui-small);
+  margin: -6px 0 14px 0;
+}
+
+.pp-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 8px 0 16px 0;
+}
+
+.pp-card {
+  border: 1px solid var(--background-modifier-border);
+  border-radius: var(--radius-m, 8px);
+  padding: 12px 14px;
+  background: var(--background-secondary);
+}
+
+.pp-card-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
+.pp-card-head h3 {
+  margin: 0;
+  font-size: var(--font-ui-medium);
+}
+
+.pp-card-info p {
+  margin: 4px 0;
+}
+
+.pp-note {
+  margin: 4px 0 0 0;
+  font-size: var(--font-ui-smaller);
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+.pp-badge {
+  font-size: var(--font-ui-smaller);
+  padding: 1px 8px;
+  border-radius: 10px;
+  border: 1px solid var(--background-modifier-border);
+  color: var(--text-muted);
+}
+
+.pp-badge-active {
+  color: var(--text-on-accent);
+  background: var(--interactive-accent);
+  border-color: var(--interactive-accent);
+}
+
+.pp-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 6px;
+}
+
+.pp-chip {
+  font-size: var(--font-ui-smaller);
+  padding: 1px 8px;
+  border-radius: 10px;
+  background: var(--background-modifier-hover);
+  color: var(--text-normal);
+}
+
+.pp-chip.pp-on {
+  color: var(--text-error);
+  border: 1px solid var(--text-error);
+  background: transparent;
+}
+
+.pp-chip.pp-off {
+  color: var(--text-success, var(--text-accent));
+  border: 1px solid var(--text-success, var(--text-accent));
+  background: transparent;
+}
+
+.pp-chip.pp-extra {
+  color: var(--text-muted);
+  border: 1px dashed var(--background-modifier-border);
+  background: transparent;
+}
+
+.pp-chip.pp-lock {
+  color: var(--text-accent);
+  border: 1px solid var(--text-accent);
+  background: transparent;
+}
+
+.pp-card-btns {
+  display: flex;
+  gap: 8px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.pp-foot {
+  display: flex;
+  gap: 8px;
+  margin-top: 14px;
+  padding-top: 10px;
+  border-top: 1px solid var(--background-modifier-border);
+}
+
+.pp-muted {
+  color: var(--text-muted);
+  font-size: var(--font-ui-smaller);
+}
+
+.pp-list {
+  border: 1px solid var(--background-modifier-border);
+  border-radius: var(--radius-s, 6px);
+  max-height: 220px;
+  overflow-y: auto;
+  margin: 4px 0 12px 0;
+}
+
+.pp-item {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 3px 10px;
+  font-size: var(--font-ui-smaller);
+}
+
+.pp-item:nth-child(odd) {
+  background: var(--background-primary-alt, var(--background-secondary));
+}
+
+.pp-item-name {
+  color: var(--text-normal);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.pp-item-id {
+  color: var(--text-faint);
+  font-family: var(--font-monospace);
+  font-size: var(--font-ui-smaller);
+  flex-shrink: 0;
+}
+
+.pp-search {
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.pp-pinned-list {
+  max-height: 300px;
+  overflow-y: auto;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: var(--radius-s, 6px);
+  padding: 4px 8px;
+  margin-bottom: 18px;
+}
+
+.pp-pin-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 2px 0;
+}
+
+.pp-pin-row label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  min-width: 0;
+}
+
+.pp-pin-name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.pp-cmds div {
+  padding: 1px 0;
+}

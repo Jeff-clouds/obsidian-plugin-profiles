@@ -1,0 +1,10 @@
+{
+  "id": "plugin-profiles",
+  "name": "插件档案",
+  "version": "1.0.0",
+  "minAppVersion": "1.4.0",
+  "description": "把插件开关状态存成档案 A / B，一键互相切换。只记录启用状态，不读写任何插件的配置；未记录的增量插件不受影响。",
+  "author": "Jeff-clouds",
+  "authorUrl": "https://github.com/Jeff-clouds",
+  "isDesktopOnly": true
+}
